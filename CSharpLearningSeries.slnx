@@ -4,4 +4,5 @@
     <File Path=".NETZamanTüneli.txt" />
     <File Path="C#Nedir.txt" />
   </Folder>
+  <Project Path="IntroductionToCSharp/IntroductionToCSharp.csproj" />
 </Solution>
