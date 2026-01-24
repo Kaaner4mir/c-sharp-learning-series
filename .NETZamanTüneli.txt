@@ -1,0 +1,121 @@
+==============================
+.NET ZAMAN TÜNELÝ (ÖZET)
+TXT FORMAT
+==============================
+
+2002 – .NET Framework 1.0
+- Microsoft tarafýndan yayýnlanan ilk .NET sürümüdür.
+- Windows odaklýdýr.
+- ASP.NET Web Forms, ADO.NET ve CLR (Common Language Runtime) tanýtýldý.
+- Amaç: Java benzeri, managed (yönetilen) bir platform oluþturmak.
+
+2003 – .NET Framework 1.1
+- Performans iyileþtirmeleri.
+- Mobil cihazlar için daha iyi destek.
+- Güvenlik ve hata düzeltmeleri.
+
+2005 – .NET Framework 2.0
+- Generics tanýtýldý (List<T>, Dictionary<T>).
+- Nullable Types, Partial Classes.
+- ASP.NET 2.0 ile büyük web geliþtirme iyileþtirmeleri.
+- Günümüzde hâlâ etkisi olan önemli bir sürüm.
+
+2006 – .NET Framework 3.0
+- Yeni runtime yoktur, 2.0 üzerine kuruludur.
+- WPF (Windows Presentation Foundation)
+- WCF (Windows Communication Foundation)
+- WF (Windows Workflow Foundation)
+- CardSpace
+
+2007 – .NET Framework 3.5
+- LINQ tanýtýldý.
+- Entity Framework’in ilk sürümü.
+- Lambda Expressions ve Extension Methods.
+- Modern C#’ýn temelleri atýldý.
+
+2010 – .NET Framework 4.0
+- Dynamic keyword.
+- Parallel Programming (Task Parallel Library).
+- Performans ve bellek yönetimi iyileþtirmeleri.
+
+2012 – .NET Framework 4.5
+- async / await yapýlarý.
+- Asenkron programlama daha kolay ve okunabilir hale geldi.
+- Windows Store App desteði.
+
+2015 – .NET Framework 4.6
+- Roslyn tabanlý C# derleyicisi.
+- Daha iyi JIT ve güvenlik geliþtirmeleri.
+
+2016 – .NET Core 1.0
+- Açýk kaynak (Open Source).
+- Cross-platform (Windows, Linux, macOS).
+- Yüksek performans ve modüler yapý.
+- .NET Framework’ten tamamen ayrý bir mimari.
+- Sunucu ve web uygulamalarý hedeflendi.
+
+2017 – .NET Core 2.0
+- .NET Standard 2.0 tanýtýldý.
+- Framework ile Core arasýndaki API farklarý büyük ölçüde kapatýldý.
+- Kurumsal projeler için daha uygun hale geldi.
+
+2018 – .NET Core 2.1
+- LTS (Long Term Support).
+- Performans iyileþtirmeleri.
+- ASP.NET Core için büyük kazanýmlar.
+
+2019 – .NET Core 3.0
+- WPF ve Windows Forms desteði eklendi.
+- Desktop uygulamalarý Core tarafýna taþýnabilir hale geldi.
+
+2020 – .NET 5
+- Ýsimlendirme sadeleþtirildi.
+- .NET Framework ve .NET Core birleþme süreci baþladý.
+- Tek platform: .NET
+- Framework geliþtirmesi durduruldu (yalnýzca bakým).
+
+2021 – .NET 6
+- LTS sürüm.
+- Minimal API’ler.
+- Performans açýsýndan büyük sýçrama.
+- Modern .NET ekosisteminin temel taþý.
+
+2022 – .NET 7
+- STS (Short Term Support).
+- Cloud, Web ve API performans odaklý geliþtirmeler.
+
+2023 – .NET 8
+- LTS sürüm.
+- Native AOT geliþtirmeleri.
+- Blazor ve WebAssembly iyileþtirmeleri.
+- Kurumsal ve uzun vadeli projeler için önerilen sürüm.
+
+==============================
+TEMEL FARKLAR (ÖZET)
+==============================
+
+.NET Framework
+- Sadece Windows.
+- Kapalý kaynak.
+- Artýk aktif geliþtirme yok (bakým modu).
+
+.NET Core
+- Açýk kaynak.
+- Cross-platform.
+- Yüksek performans.
+- Modern mimari.
+
+.NET (5+)
+- Tek çatý altýnda birleþik platform.
+- Web, Desktop, Mobile, Cloud, IoT.
+- Aktif olarak geliþtiriliyor.
+- Gelecek odaklý yapý.
+
+==============================
+KISA SONUÇ
+==============================
+Yeni projeler için:
+- .NET 6 veya .NET 8 (LTS) tercih edilmelidir.
+
+Eski projeler:
+- .NET Framework projeleri bakým modunda tutulur.

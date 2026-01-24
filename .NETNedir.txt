@@ -1,0 +1,16 @@
+.NET, Microsoft tarafýndan geliþtirilen bir yazýlým geliþtirme platformudur. Aþaðýdaki özelliklere sahiptir.
+
+* Ortam bir çalýþma ortamý (runtime <-> CLR)
+* Zengin kütüphaneler (dosya, veritabaný, að ,web, UI vb.)
+* Birden fazla dili destekler (C#, F# vb.)
+* Yazdýðýmýz kodun derlenmesini, çalýþtýrýlmasýný; güvenli, hýzlý ve taþýnabilir olmasýný saðlayan bir yazýlým geliþtirme ekosistemidir.
+
+Daha detaylý anlatmak gerekirse;
+
+> C# diliyle ekrana bir yazý yazdýrdýðýnýzý düþünün
+  Console.WriteLine("Hello World");
+> C# kodu -> (Intermediate Language)'a çevrilir.
+> CLR (Common Language Runtime)
+> Garbage Collector (GC) -> Çöp Toplayýcý
+> .NET Class Library -> Hazýr dev kütüphaneler
+> Platform baðýmsýzlýk (Cross-Platform)

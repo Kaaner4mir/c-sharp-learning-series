@@ -1,1 +1,7 @@
-<Solution />
+<Solution>
+  <Folder Name="/Notlar/">
+    <File Path=".NETNedir.txt" />
+    <File Path=".NETZamanTüneli.txt" />
+    <File Path="C#Nedir.txt" />
+  </Folder>
+</Solution>

@@ -1,0 +1,11 @@
+C#, .NET platformu üzerinde çalýþan bir programlama dilidir. Nesne yönelimli (OOP - Object-Oriented Programming) bir dildir. ModerNn ve güçlü bir dildir.
+
+C# doðrudan C dilinden oluþturulmadý ama C ailesinden gelir. ve C/C++ ile Java'dan etkilenmiþtir.
+
+* Temel programlama mantýðýný C'den aldý ve söz dizimini ( {}, for, while, if) de C dilinden alýndý.
+* Nesne yönelimli kavramlar (class, encapsulation) yani OOP ve Tip güvenliði yaklaþýmý C++'ýn hediyesidir.
+* Java dilinden ise; Sanal makine mantýðý ( JVM <-> CLR), Garbabe Collector (Çöp toplayýcý), Exception handling ve Class-based yapo özellikleri
+alýndý. C#'ýn tasarýmý Java'ya oldukça benzer. Microsoft, Java'nýn popülerliðini ve baþarýsýný göz önünde bulundurarak C#'ý tasarlarken Java'dan esinlenmiþtir.
+* C dilinde bellek yönetimi manuel yapýlýrken C# programlama dilinde bellek yönetimi otomatik olarak Garbage Collector (Çöp Toplayýcý) tarafýndan yapýlýr.
+Bu, geliþtiricilerin bellek sýzýntýlarý ve diðer bellek yönetimi sorunlarýyla uðraþmasýný azaltýr.
+* C# uygulama & iþ yazýlýmlarý için kullanýlýrken C programlama dilini ise sistem programlama, gömülü sistemler ve iþletim sistemi geliþtirme gibi alanlarda daha yaygýn olarak kullanýlýr.
