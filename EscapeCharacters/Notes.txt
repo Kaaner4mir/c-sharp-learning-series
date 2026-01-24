@@ -1,0 +1,13 @@
+﻿C#'da metinsel bir ifade yazmak istediğimizde çift tırnak kullanırız. Ancak, metin içinde çift tırnak kullanmak istediğimizde,
+bu tırnakların metnin sonunu belirtmediğini C#'a bildirmemiz gerekir. Bunu yapmak için kaçış karakteri olan ters eğik çizgi (\\) kullanılır.
+
+\" -> C#'da Çift tırnak arasına çift tırnak kullanmak isterseniz \" şeklinde yazmalısınız.
+\0 -> Null Karakteri (Null Character): Metinsel ifadeyi sonlandırır ya da boş bir karakter ekler. Genellikle metin sonunu belirtmek için kullanılır.
+\' -> Tek Tırnak (Single Quote): Metinsel ifade içinde tek tırnak kullanmak için kullanılır.
+\\ -> Ters Eğik Çizgi (Backslash): Metin içinde ters eğik çizgi kullanmak için kullanılır.
+\n -> Yeni Satır (New Line): İmleci bir alt satıra indirir.
+\r -> Satır Başı (Carriage Return): İmleci satırın başına getirir.
+\t -> Tab (Horizontal Tab): Yatay olarak bir tab boşluğu bırakır.
+\v -> Dikey Sekme (Vertical Tab): Dikey olarak bir alt satıra geçer.
+\b -> Geri Silme (Backspace): İmlecin solundaki bir karakteri siler.
+\a -> Uyarı Sesi (Alert): Sistemden bir bip sesi çıkarır.

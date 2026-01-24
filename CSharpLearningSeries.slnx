@@ -1,8 +1,10 @@
 <Solution>
-  <Folder Name="/Notlar/">
-    <File Path=".NETNedir.txt" />
-    <File Path=".NETZamanTüneli.txt" />
-    <File Path="C#Nedir.txt" />
+  <Folder Name="/Notes/">
+    <File Path="About.NET.txt" />
+    <File Path="WhatIs.NET.txt" />
+    <File Path="WhatIsC#.txt" />
   </Folder>
+  <Project Path="EscapeCharacters/EscapeCharacters.csproj" />
   <Project Path="IntroductionToCSharp/IntroductionToCSharp.csproj" />
+  <Project Path="Variables/Variables.csproj" />
 </Solution>
