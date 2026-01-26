@@ -1,0 +1,33 @@
+﻿Type Casting -> Bir değişkenin türünü başka bir türe dönüştürme işlemidir. 2 farklı türde tip dönüşümü vardır:
+
+Örtülü (Implicit) Tip Dönüşümü: Bir veri türünün, daha geniş bir veri türüne otomatik olarak dönüştürülmesidir.
+Örneğin, bir tamsayı (int) değeri bir ondalık (float) değere dönüştürüldüğünde, bu işlem örtülü tip dönüşümüdür.
+C#'ın bunu anlamasının nedeni 7 ile 7.0 arasında veri kaybı olmamasıdır.
+
+Açık (Explicit) Tip Dönüşümü: Bir veri türünün, daha dar bir veri türüne manuel olarak dönüştürülmesidir.
+Örneğin, bir ondalık (float) değeri bir tamsayı (int) değerine dönüştürmek istediğinizde, bu işlem açık tip dönüşümüdür.
+Bu durumda, veri kaybı olabileceği için programcı bu dönüşümü açıkça belirtmelidir.
+Herhangi bir yuvarlama işlemi yapılmaz, sadece ondalık kısım atılır.
+
+Convert Sınıfı: C#'ta tip dönüşümleri için kullanılan bir sınıftır.
+Convert.ToInt32(), Convert.ToDouble() gibi yöntemlerle farklı veri türlerine dönüşüm yapılabilir.
+Yuvarlama işlemi Convert sınıfı tarafından otomatik olarak yapılır.
+Banker's Rounding (Bankacı Yuvarlaması) kullanılır; bu, .5 durumunda en yakın çift sayıya yuvarlama yapar.
+Örnekler:
+
+double num1 = 9.5;
+int rounded1 = Convert.ToInt32(num1); // Sonuç: 10
+double num2 = 8.5;
+int rounded2 = Convert.ToInt32(num2); // Sonuç: 8
+double num3 = 7.5;
+int rounded3 = Convert.ToInt32(num3); // Sonuç: 8
+
+C# Type Safe bir dildir, bu yüzden tür dönüşümleri önemlidir.
+
+Input ve Output işlemlerinde genellikle string türü kullanılır.
+Bu nedenle, kullanıcıdan alınan veriler genellikle string olarak gelir ve ihtiyaç duyulan türe dönüştürülmesi gerekir.
+Örnek:
+string input = Console.ReadLine(); // Kullanıcıdan string veri alır
+
+
+
