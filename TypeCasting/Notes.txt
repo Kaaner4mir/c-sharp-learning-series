@@ -29,5 +29,9 @@ Bu nedenle, kullanıcıdan alınan veriler genellikle string olarak gelir ve iht
 Örnek:
 string input = Console.ReadLine(); // Kullanıcıdan string veri alır
 
-
+Nullables ve Tip Dönüşümü: Nullable türler, null değer alabilen veri türleridir.
+Örneğin, int? nullableInt = null; ifadesiyle bir nullable tamsayı tanımlanabilir.
+Nullable türlerden normal türlere dönüşüm yaparken, null kontrolü yapılmalıdır.
+int? nullableInt = 5;
+int normalInt = nullableInt ?? 0; // Null ise 0, değilse nullableInt değeri atanır.
 
