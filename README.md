@@ -21,6 +21,16 @@ Konuları aşağıdaki sırayı takip ederek öğrenmeniz önerilir:
 
 Bu reponun amacı, C# dilini temelden başlayarak öğrenen geliştiricilere temiz, anlaşılır ve çalıştırılabilir kod örnekleri sunmaktır. Her bölüm, ilgili konuya dair pratik yaklaşımlar içerir.
 
+## 🙏 Teşekkürler ve Kaynaklar
+
+Bu proje geliştirilirken aşağıdaki değerli eğitmenlerin ve kanalların içeriklerinden faydalanılmıştır:
+
+*   **[Fehmi Uyar / Kanal Adı]** - [[Video Linki veya Kanal Linki](https://www.youtube.com/@fehmiuyarnet)]
+*   **[Görkemli Yazılım / Kanal Adı]** - [[Video Linki veya Kanal Linki](https://www.youtube.com/@gorkemliyazilim)]
+*   **[Engin Demiroğ / Kanal Adı]** - [[Video Linki veya Kanal Linki](https://www.youtube.com/@engindemirog2946)]
+
+Bu kaynaklar, konuların pekiştirilmesinde ve uygulamanın geliştirilmesinde büyük rol oynamıştır. Kendilerine teşekkür ederim!
+
 ## 🛠️ Kurulum ve Çalıştırma
 
 Projeleri yerel ortamınızda çalıştırmak için aşağıdaki gereksinimleri karşılamanız gerekir:
