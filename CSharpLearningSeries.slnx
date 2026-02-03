@@ -5,6 +5,7 @@
     <File Path="WhatIsC#.txt" />
   </Folder>
   <Project Path="ArithmeticOperators/ArithmeticOperators.csproj" Id="a743994d-09eb-4823-aa3a-5f49104baf71" />
+  <Project Path="BitwiseOperators/BitwiseOperators.csproj" Id="4514e825-d1fc-40fd-8684-ef0406295a00" />
   <Project Path="EscapeCharacters/EscapeCharacters.csproj" />
   <Project Path="IntroductionToCSharp/IntroductionToCSharp.csproj" />
   <Project Path="RecapDemo1/RecapDemo1.csproj" Id="4b110879-47b5-4c11-a3b5-e0980cc79d73" />
