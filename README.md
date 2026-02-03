@@ -7,15 +7,16 @@ Bu depo, C# ve .NET dünyasına giriş yapmak isteyenler için hazırlanmış uy
 Konuları aşağıdaki sırayı takip ederek öğrenmeniz önerilir:
 
 1.  **Giriş ve Teorik Bilgiler:**
-    *   [.NET Nedir?](WhatIs.NET.txt)
     *   [C# Nedir?](WhatIsC%23.txt)
+    *   [.NET Nedir?](WhatIs.NET.txt)
     *   [.NET Gelişim Süreci](About.NET.txt)
 2.  **[IntroductionToCSharp](IntroductionToCSharp/):** C# programlama dilinin temel yapısı ve giriş.
 3.  **[EscapeCharacters](EscapeCharacters/):** Kaçış karakterleri ve metin biçimlendirme.
 4.  **[Variables](Variables/):** Veri tipleri, değişkenler ve sabitler.
-5.  **[ArithmeticOperators](ArithmeticOperators/):** Matematiksel operatörler ve işlem önceliği.
 6.  **[TypeCasting](TypeCasting/):** Bilinçli ve bilinçsiz tür dönüşümleri.
 7.  **[RecapDemo1](RecapDemo1/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
+5.  **[ArithmeticOperators](ArithmeticOperators/):** Matematiksel operatörler ve işlem önceliği.
+
 
 ## 🎯 Reponun Amacı
 
