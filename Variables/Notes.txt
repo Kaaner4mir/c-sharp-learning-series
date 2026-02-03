@@ -39,7 +39,17 @@ var         | Tür Çıkarımı         | Değişken | Derleyici tarafından tü
 * float ve decimal kullanımında değer sonuna suffix (f, m) eklenir:
   - float: 3.14f
   - decimal: 19.99m
+
 * Bir değişkene bir değer atandıktan sonra eğer değer sonradan değiştirilirse son değer geçerli olur.
 Örnek:
 int sayi = 10;
 sayi = 20; -> sayi artık 20 değerine sahiptir.
+
+* const anahtar kelimesi ile bir değişkene o an değer atanmalıdır ve daha sonradan değiştirilemez. Ve buna ek olarak
+bir yazılım standartı olarak const ifadeler UPPER_SNAKE_CASE ile tanımlanır.
+Örnek:
+const double PI = 3.14159;
+
+* int x,y,z;
+x = y = z = 10; // şeklinde değer ataması yapılabilir.
+

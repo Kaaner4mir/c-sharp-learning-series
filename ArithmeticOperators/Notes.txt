@@ -1,0 +1,42 @@
+﻿Operatör     |     İsim			    |    Açıklama						|  Örnek
++			 |	   Toplama          |    İki değeri toplar				|  x + y
+-			 |	   Çıkara			|	 Bir değerden diğerini çıkarır  |  x - y
+*			 |	   Çarpma			|	 İki değeri çarpar				|  x * y
+/			 |	   Bölme			|	 Bir değeri diğer değere böler	|  x / y
+%			 |	   Mod alma			|	 Bölümden kalan sayıyı verir	|  x % y
+++			 |	   Arttırma 		|	 Değeri bir arttırır.			|  x++
+--			 |	   Azaltma			|	 Değeri bir azaltır				|  x--
+
+* "+ , - , * , / , %" gibi aritmetik operatörler ile
+1. bir değer ve değer arasında,
+2. bir değişken ve değişken arasında,
+3. değişken ve değişken arasında matematiksel işlem yapılabilir.
+Örnek:
+int sum1 = 10 + 20;			// Değer ve değer 
+int sum2 = sum1 + 15;		// Değişken ve değer
+int sum3 = sum1 + sum2;		// Değer ve değer
+
+* "+" operatörü ile toplama işlemine ek olarak string birleştirme yapılabilir.
+Örnek:
+string firstName = "Emir";
+string lastName = "Kaaner";
+Console.WriteLine(firstName+lastName);   // Çıktı: EmirKaaner
+
+* Bölme işleminde int bir değerin yine int bir değer bölünmesi durumunda ortaya double sonuç çıkabilir.
+Bu durumda sonuç ondalıklı olmasına rağmen tam sayı çıkar. Bu duruma dikkat edilmesi gerekir.
+
+* "++" işlemi eğer değişkenin sağına yazılırsa ilk önce atama işlemini yapar daha sonra attırır
+ "++" işlemi eğer değişkenin soluna yazılırsa ilk önce arttırma işlemini yapar daha sonra atama işlemini yapar.
+ Aynı durum diğer operatörler için de geçerlidir.
+
+* C# (ve matematik) kurallarına göre, bir satırda birden fazla işlem varsa derleyici
+bu işlemleri belirli bir hiyerarşiye göre yapar.
+
+Öncelik Sırası,İşlem Tipi,Operatörler,İşlem Yönü
+1 (En Yüksek),Parantezler,( ),İçten dışa
+2,Tekli (Unary) & Artırma,"++, --, ! (Mantıksal Değil), +, - (İşaret)",Sağdan Sola
+3,Çarpma / Bölme / Mod,"*, /, %",Soldan Sağa
+4,Toplama / Çıkarma,"+, -",Soldan Sağa
+5 (En Düşük),Atama,"=, +=, -=, *=",Sağdan Sola
+
+Örnek: int sonuc = 10 + 4 * 3 / (2 + 1) - 5;  // Sonuç: 9

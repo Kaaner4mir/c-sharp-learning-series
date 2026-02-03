@@ -42,15 +42,15 @@
 
         // Kullanıcıdan Girdi (Input) Alma  
 
-        //Console.Write("\nEnter a number: ");
-        //string userInput = Console.ReadLine();
+        Console.Write("\nEnter a number: ");
+        string userInput = Console.ReadLine();
 
-        //Console.WriteLine("You entered: " + userInput);
+        Console.WriteLine("You entered: " + userInput);
 
-        //Console.Write("Enter your age: ");
-        //byte age= Convert.ToByte(Console.ReadLine());
+        Console.Write("Enter your age: ");
+        byte age = Convert.ToByte(Console.ReadLine());
 
-        //Console.WriteLine("Your age is: " + age);
+        Console.WriteLine("Your age is: " + age);
 
         // Nullable (Boş olabilir) Tipler ve Casting
 
