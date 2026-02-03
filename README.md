@@ -25,9 +25,9 @@ Bu reponun amacı, C# dilini temelden başlayarak öğrenen geliştiricilere tem
 
 Bu proje geliştirilirken aşağıdaki değerli eğitmenlerin ve kanalların içeriklerinden faydalanılmıştır:
 
-*   **[Fehmi Uyar / Kanal Adı]** - [[Video Linki veya Kanal Linki](https://www.youtube.com/@fehmiuyarnet)]
-*   **[Görkemli Yazılım / Kanal Adı]** - [[Video Linki veya Kanal Linki](https://www.youtube.com/@gorkemliyazilim)]
-*   **[Engin Demiroğ / Kanal Adı]** - [[Video Linki veya Kanal Linki](https://www.youtube.com/@engindemirog2946)]
+*   **[Fehmi Uyar]** - [[Lütfen tıklayınız!](https://www.youtube.com/@fehmiuyarnet)]
+*   **[Görkemli Yazılım]** - [[Lütfen tıklayınız!](https://www.youtube.com/@gorkemliyazilim)]
+*   **[Engin Demiroğ]** - [[Lütfen tıklayınız!](https://www.youtube.com/@engindemirog2946)]
 
 Bu kaynaklar, konuların pekiştirilmesinde ve uygulamanın geliştirilmesinde büyük rol oynamıştır. Kendilerine teşekkür ederim!
 
