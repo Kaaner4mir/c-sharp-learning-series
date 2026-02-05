@@ -1,0 +1,46 @@
+﻿"==" ile iki değeri ya da değişkeni karşılaştırmak için kullanılır.
+
+C# KARŞILAŞTIRMA VE VERİ TİPLERİ NOTLARI
+
+1) KARŞILAŞTIRMA OPERATÖRLERİ
+
+Karşılaştırma operatörleri bool (true / false) değer döndürür.
+
+== : Eşit mi != : Eşit değil mi > : Büyüktür < : Küçüktür >= : Büyük
+eşittir <= : Küçük eşittir
+
+Örnek: 1 == 1 -> true 5 > 10 -> false
+
+2) STRING KARŞILAŞTIRMALARI
+
+String karşılaştırmaları varsayılan olarak büyük/küçük harfe duyarlıdır.
+
+“Jhonny” == “jhonny” -> false
+
+Daha güvenli karşılaştırma için Equals kullanılır.
+
+Örnek: realName.Equals(fakeName, StringComparison.OrdinalIgnoreCase) ->
+Büyük/küçük harf farkını yok sayar
+
+3) DOUBLE VE HASSASİYET PROBLEMİ
+
+double türü ikili (binary) sistemde çalışır. Bu yüzden bazı ondalıklı
+sayılar tam temsil edilemez.
+
+Örnek: 0.1 + 0.2 == 0.3 -> false
+
+Gerçek değeri görmek için: ToString(“R”) kullanılır.
+
+4) DECIMAL VE FİNANSAL HESAPLAR
+
+decimal türü 10 tabanlıdır ve daha hassastır. Para ve finans işlemleri
+için tercih edilir.
+
+Örnek: 0.1m + 0.2m == 0.3m -> true
+
+5) ÖZET
+
+-   Para işlemlerinde decimal kullan
+-   String karşılaştırmalarında Equals tercih et
+-   double ile == kullanırken dikkatli ol
+-   Hassas sonuçları görmek için “R” formatını kullan
