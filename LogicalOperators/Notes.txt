@@ -1,0 +1,10 @@
+﻿Bit düzeyinde operatörler olan " & , | , ^ " ile  mantıksal operatörler olan
+" && , || , !" birbirinden tamamen farklıdır.
+
+&& operatünde ilk operandın değeri false ise ikinci operand değerlendirilmez.
+|| operatöründe ise ilk operandın değeri true ise ikinci operand değerlendirilmez. Buna "short-circuit evaluation" denir.
+! operatöründe ise operandın değeri true ise sonuç false olur, operandın değeri false ise sonuç true olur.
+
+short-circuit evaluation, programın performansını artırmak ve gereksiz hesaplamaları önlemek için kullanılır. Özellikle karmaşık koşullar içeren ifadelerde,
+bu özellik sayesinde program daha hızlı çalışabilir.
+

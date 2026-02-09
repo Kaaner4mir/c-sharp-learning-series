@@ -13,10 +13,13 @@ Konuları aşağıdaki sırayı takip ederek öğrenmeniz önerilir:
 2.  **[IntroductionToCSharp](IntroductionToCSharp/):** C# programlama dilinin temel yapısı ve giriş.
 3.  **[EscapeCharacters](EscapeCharacters/):** Kaçış karakterleri ve metin biçimlendirme.
 4.  **[Variables](Variables/):** Veri tipleri, değişkenler ve sabitler.
-6.  **[TypeCasting](TypeCasting/):** Bilinçli ve bilinçsiz tür dönüşümleri.
-7.  **[RecapDemo1](RecapDemo1/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
-5.  **[ArithmeticOperators](ArithmeticOperators/):** Matematiksel operatörler ve işlem önceliği.
-
+5.  **[TypeCasting](TypeCasting/):** Bilinçli ve bilinçsiz tür dönüşümleri.
+6.  **[RecapDemo1](RecapDemo1/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
+7.  **[ArithmeticOperators](ArithmeticOperators/):** Matematiksel operatörler ve işlem önceliği.
+8.  **[BitwiseOperators](BitwiseOperators/):** Bit düzeyinde operatörler ve işlemler.
+9.  **[ComparisonOperators](ComparisonOperators/):** Karşılaştırma operatörleri ve mantıksal öncelikler
+10.  **[LogicalOperators](LogicalOperators/):** Mantıksal operatörler ve işlemler
+11.  **[BooleanDataType](BooleanDataType/):** Boolean veri türü ve kullanım alanları
 
 ## 🎯 Reponun Amacı
 

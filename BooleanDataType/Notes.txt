@@ -1,0 +1,4 @@
+﻿Boolean veri tipi tipi sadece iki değer alabilir: true (doğru) veya false (yanlış).
+Boolean veri tipi, programlama dillerinde genellikle "bool" olarak adlandırılır.
+Genellikle koşullu ifadelerde, döngülerde ve mantıksal işlemlerde kullanılır.
+Bool veri tipi genellikler karakter dizileri, sayılar veya diğer veri türleriyle karşılaştırmalar yaparken kullanılır.

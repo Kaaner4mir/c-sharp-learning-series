@@ -9,6 +9,7 @@
   <Project Path="ComparisonOperators/ComparisonOperators.csproj" Id="7240d859-da16-4c58-acca-94862fad49c3" />
   <Project Path="EscapeCharacters/EscapeCharacters.csproj" />
   <Project Path="IntroductionToCSharp/IntroductionToCSharp.csproj" />
+  <Project Path="LogicalOperators/LogicalOperators.csproj" Id="08c93969-1cdc-4e04-8d03-54a901aa5311" />
   <Project Path="RecapDemo1/RecapDemo1.csproj" Id="4b110879-47b5-4c11-a3b5-e0980cc79d73" />
   <Project Path="TypeCasting/TypeCasting.csproj" Id="1a23a46a-9169-4b57-b2bf-dbab0fd54cc9" />
   <Project Path="Variables/Variables.csproj" />
