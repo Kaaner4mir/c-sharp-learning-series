@@ -1,0 +1,26 @@
+﻿if -> Bir koşulun doğru olup olmadığını kontrol eder. Eğer koşul doğruysa,
+if bloğu içindeki kod çalışır. Eğer koşul yanlışsa, if bloğu atlanır ve program devam eder.
+
+else if -> Birden fazla koşulu kontrol etmek için kullanılır. İlk if bloğunun koşulu yanlışsa, else if bloğundaki koşul kontrol edilir.
+Eğer else if bloğundaki koşul doğruysa, o blok içindeki kod çalışır. Eğer else if bloğundaki koşul da yanlışsa,
+program devam eder veya başka bir else if bloğu kontrol edilir. Birden fazla else if bloğu kullanılabilir.
+
+else -> if bloğunun koşulu yanlış olduğunda çalışacak kod bloğunu belirtir.
+Eğer if bloğundaki koşul yanlışsa, else bloğu içindeki kod çalışır
+
+switch -> Bir değişkenin değerine göre farklı kod bloklarının çalışmasını sağlar. switch ifadesi,
+bir değişkenin değerini kontrol eder ve o değere karşılık gelen case bloğunu çalıştırır.
+
+if kullanmadan else if ve else bloğu kullanılamaz. if bloğu mutlaka olmalıdır. else if ve else blokları,
+if bloğunun koşulu yanlış olduğunda çalışacak kod bloklarını belirtir.
+
+Conditionals, programınının çalışma mantığı aşağıdaki gibidir.
+1. Eğer koşul doğruysa, if bloğu içindeki kod çalışır.
+2. Eğer koşul yanlışsa, if bloğu atlanır ve program devam eder.
+3. Eğer birden fazla koşul kontrol edilecekse, else if blokları kullanılır.
+4. Eğer hiçbir koşul doğru değilse, else bloğu içindeki kod çalışır.
+5. if else if ve else ile bir şart kontrol ediliyorsa bloklardan mutlaka bir tanesi kessinlikle çalışır.
+
+if - else if - else blokları içerisinde de tekrardan if - else if - else blokları kullanılabilir.
+Bu şekilde iç içe koşullar oluşturulabilir. Bunlara nested if - else if - else denir. Nested if - else if - else blokları,
+bir koşulun içinde başka bir koşulun kontrol edilmesini sağlar.

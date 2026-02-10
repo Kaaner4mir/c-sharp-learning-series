@@ -20,6 +20,8 @@ Konuları aşağıdaki sırayı takip ederek öğrenmeniz önerilir:
 9.  **[ComparisonOperators](ComparisonOperators/):** Karşılaştırma operatörleri ve mantıksal öncelikler
 10.  **[LogicalOperators](LogicalOperators/):** Mantıksal operatörler ve işlemler
 11.  **[BooleanDataType](BooleanDataType/):** Boolean veri türü ve kullanım alanları
+11.  **[Conditionals](Conditionals/):** Koşullar ve kullanım alanları
+11.  **[RecapDemo2](RecapDemo2/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
 
 ## 🎯 Reponun Amacı
 
