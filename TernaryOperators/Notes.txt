@@ -1,0 +1,24 @@
+﻿1. Ternary Operators kısa bir if-else ifadesi yazmak için kullanılır.
+Genellikle tek bir satırda kullanılır ve üç bölümden oluşur:
+
+2. Ternary operator'ü, kodunuzu daha kısa ve okunabilir hale getirmek için kullanışlıdır.
+Ancak, karmaşık koşullar veya çok s
+
+3. Ternary operator'ün genel sözdizimi şu şekildedir:
+	koşul ? doğruysa : yanlışsa;
+
+4. Örneğin, bir sayının pozitif mi negatif mi olduğunu kontrol etmek için ternary operator'ü kullanabiliriz:
+
+int number = 5;
+string result = (number > 0) ? "Pozitif" : "Negatif";
+
+Bu örnekte, number değişkeni 5 olduğu için koşul true olur ve result değişkenine "Pozitif" atanır.
+Eğer number negatif bir değer olsaydı, result değişkenine "Negatif" atanırdı.
+
+ayıda işlemi içeren durumlarda, if-else ifadeleri daha uygun olabilir. Ternary operator'ü genellikle basit durumlar için tercih edilir.
+
+5. Ternary operator'ü, birden fazla koşulu kontrol etmek için de kullanılabilir.
+Örneğin, bir sayının pozitif, negatif veya sıfır olduğunu kontrol etmek için:
+
+int number = 0;
+string result = (number > 0) ? "Pozitif" : (number < 0) ? "Negatif" : "Sıfır";

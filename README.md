@@ -22,6 +22,8 @@ Konuları aşağıdaki sırayı takip ederek öğrenmeniz önerilir:
 11.  **[BooleanDataType](BooleanDataType/):** Boolean veri türü ve kullanım alanları
 11.  **[Conditionals](Conditionals/):** Koşullar ve kullanım alanları
 11.  **[RecapDemo2](RecapDemo2/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
+11.  **[TernaryOperators](TernaryOperators/):** Ternary operatörü ve kullanım şekli
+11.  **[RecapDemo3](RecapDemo3/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
 
 ## 🎯 Reponun Amacı
 
