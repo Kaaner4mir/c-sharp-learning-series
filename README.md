@@ -24,6 +24,7 @@ Konuları aşağıdaki sırayı takip ederek öğrenmeniz önerilir:
 11.  **[RecapDemo2](RecapDemo2/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
 11.  **[TernaryOperators](TernaryOperators/):** Ternary operatörü ve kullanım şekli
 11.  **[RecapDemo3](RecapDemo3/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
+11.  **[RecapDemo4](RecapDemo4/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
 
 ## 🎯 Reponun Amacı
 
