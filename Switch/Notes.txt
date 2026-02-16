@@ -1,0 +1,33 @@
+﻿Switch yapısı, bir değişkenin farklı durumlara göre farklı kod bloklarının çalıştırılmasını
+sağlayan bir kontrol yapısıdır.
+Genellikle if-else yapısına alternatif olarak kullanılır ve daha okunabilir bir kod yazmayı sağlar.
+
+Case: Switch yapısında her bir durum "case" olarak adlandırılır.
+Her case, belirli bir değere karşılık gelir ve o değere sahip olduğunda çalıştırılacak kod bloğunu içerir.
+
+Default: Switch yapısında, hiçbir case'in eşleşmediği durumlarda çalıştırılacak kod bloğunu belirtmek 
+için "default" kullanılır.
+
+Switch Yapısı;
+
+switch (değişken) {
+	case değer1:
+		// değer1 durumunda çalışacak kod bloğu
+		break;
+	case değer2:
+		// değer2 durumunda çalışacak kod bloğu
+		break;
+	default:
+		// hiçbir case'in eşleşmediği durumlarda çalışacak kod bloğu
+		break;
+}
+
+.Net 8 ve üstü sürümlerde, switch yapısı daha da geliştirilmiş ve pattern matching gibi özellikler eklenmiştir.
+Switch Yapısı;
+
+string değişken = değer switch
+{
+	değer1 => // değer1 durumunda çalışacak kod bloğu,
+	değer2 => // değer2 durumunda çalışacak kod bloğu,
+	_ => // hiçbir case'in eşleşmediği durumlarda çalışacak kod bloğu
+};

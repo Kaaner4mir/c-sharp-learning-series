@@ -20,11 +20,12 @@ Konuları aşağıdaki sırayı takip ederek öğrenmeniz önerilir:
 9.  **[ComparisonOperators](ComparisonOperators/):** Karşılaştırma operatörleri ve mantıksal öncelikler
 10.  **[LogicalOperators](LogicalOperators/):** Mantıksal operatörler ve işlemler
 11.  **[BooleanDataType](BooleanDataType/):** Boolean veri türü ve kullanım alanları
-11.  **[Conditionals](Conditionals/):** Koşullar ve kullanım alanları
-11.  **[RecapDemo2](RecapDemo2/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
-11.  **[TernaryOperators](TernaryOperators/):** Ternary operatörü ve kullanım şekli
-11.  **[RecapDemo3](RecapDemo3/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
-11.  **[RecapDemo4](RecapDemo4/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
+12.  **[Conditionals](Conditionals/):** Koşullar ve kullanım alanları
+13.  **[RecapDemo2](RecapDemo2/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
+14.  **[TernaryOperators](TernaryOperators/):** Ternary operatörü ve kullanım şekli
+15.  **[RecapDemo3](RecapDemo3/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
+16.  **[RecapDemo4](RecapDemo4/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
+17.  **[Switch](Switch/):** Switch'in kullanımları
 
 ## 🎯 Reponun Amacı
 
