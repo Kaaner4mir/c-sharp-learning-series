@@ -26,6 +26,9 @@ Konuları aşağıdaki sırayı takip ederek öğrenmeniz önerilir:
 15.  **[RecapDemo3](RecapDemo3/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
 16.  **[RecapDemo4](RecapDemo4/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
 17.  **[Switch](Switch/):** Switch'in kullanımları
+17.  **[String](String/):** String'in kullanımları
+17.  **[StringMethods](StringMethods/):** String metotları ve yazımları
+17.  **[StringBuilder](StringBuilder/):** StringBuilder yapısı ve özellikleri
 
 ## 🎯 Reponun Amacı
 
