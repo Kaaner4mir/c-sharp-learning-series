@@ -1,0 +1,77 @@
+========================================
+         STRINGBUILDER SINIFI
+========================================
+
+C#'ta "string" veri tipi "immutable" (değiştirilemez) bir yapıya sahiptir.
+Bu ne demektir?
+Bir string değişkene yeni bir değer atadığımızda veya metin birleştirme (concatenation)
+işlemi (+ veya += ile) yaptığımızda, aslında bellekte var olan metin güncellenmez.
+Bunun yerine:
+1. Eski metnin bulunduğu bellek alanı (Heap üzerinde) aynen kalır.
+2. RAM'de yeni bir string nesnesi için yeni bir yer tahsis edilir.
+3. Birleşmiş yeni metin bu yeni adrese yazılır.
+
+Eğer sürekli olarak metin birleştirme işlemleri yaparsak (örneğin bir döngü içerisinde
+1000 defa metin eklersek), bu durum belleği yorar, ekstra bellek tüketimine ve
+uygulamanın performansının ciddi şekilde düşmesine yol açar. Eski metin nesneleri
+ancak "Garbage Collector" (Çöp Toplayıcı) devreye girdiğinde bellekten silinir.
+
+----------------------------------------
+ÇÖZÜM: StringBuilder Kullanmak
+----------------------------------------
+Sürekli ekleme, çıkarma, değiştirme yapılan metin işlemlerinde "System.Text" kütüphanesi (namespace)
+altında yer alan "StringBuilder" sınıfı kullanılır.
+
+Neden StringBuilder?
+StringBuilder nesneleri "mutable" (değiştirilebilir) yapıdadır.
+Yeni bir metin eklendiğinde, değiştirildiğinde veya silindiğinde, StringBuilder 
+orijinal bellek alanı üzerinde doğrudan değişiklik yapar. Her bir ekleme işleminde
+eski veriyi koruyup yeni kopya oluşturmak yerine aynı alanı büyütür ve günceller.
+Bu da CPU ve RAM açısından çok büyük bir performans tasarrufu sağlar.
+
+----------------------------------------
+KULLANIM ALANLARI
+----------------------------------------
+- Döngüler (for, while, foreach vb.) içerisinde çok sayıda ardışık metin birleştirme işlemi yapılacaksa.
+- Dosya, log veya veritabanı okuma/yazma işlemlerinde parça parça metinler inşaa ediliyorsa.
+- Performansın ve hızın kritik olduğu, yoğun metin operasyonları içeren projelerde.
+
+----------------------------------------
+TEMEL METOTLAR
+----------------------------------------
+Kullanmadan önce dosyanın en üstüne "using System.Text;" eklenmiş olmalıdır.
+
+1. Append()      : Metnin en sonuna yeni veri ekler.
+                   Örn: sb.Append("Dünya");
+
+2. AppendLine()  : Metnin sonuna veri ekler ve enter'a basılmış gibi alt satıra geçer (\n ekler).
+                   Örn: sb.AppendLine("Merhaba");
+
+3. Insert()      : Belirtilen index (sıra) numarasına göre araya metin sokar/sıkıştırır.
+                   Örn: sb.Insert(5, "Kaan");
+
+4. Replace()     : Metin içerisindeki belirli bir kelimeyi veya karakteri başka bir şeyle değiştirir.
+                   Örn: sb.Replace("Eski", "Yeni");
+
+5. Remove()      : Belirtilen bir indexten başlayıp, belirtilen sayı kadar karakter silebilir.
+                   Örn: sb.Remove(0, 3); // 0'dan başla 3 karakter sil
+
+6. Clear()       : StringBuilder içerisindeki tüm metni sıfırlar/temizler.
+                   Örn: sb.Clear();
+
+7. Length        : O an içinde bulunulan tam metnin karakter uzunluğu rakamsal olarak döndürür.
+                   Örn: int uzunluk = sb.Length;
+
+----------------------------------------
+ÖNEMLİ NOT:
+----------------------------------------
+StringBuilder içerisindeki işlemleri bitirdiğinizde elinizdeki nihai sonucu standart bir 
+C# "string" veri tipine dönüştürmek, değişkenlere atamak veya ekrana yazdırmak için mutlaka:
+ToString() metodunu kullanmalısınız.
+
+Örnek Tam Kullanım:
+StringBuilder sb = new StringBuilder();
+sb.Append("Merhaba");
+sb.AppendLine(" Dünya");
+string sonMetin = sb.ToString(); 
+// Çıktı elde edildi.

@@ -1,0 +1,48 @@
+﻿String metotları
+
+* Length -> Metnin boşluklar dahil toplam karakter sayısını(uzunluğunu) verir.
+
+* ToLower() -> Metnin tümünü küçük harflere çevirir.
+* ToUpper() -> Metnin tümünü büyük harflere çevirir.
+
+* Trim() -> Cümlenin başında ve sonundaki boşlukları kaldırır.
+* TrimStart() -> Cümlenin başındaki boşlukları siler.
+* TrimEnd() -> Cümlenin sonundaki boşlukları siler.
+*** Özellikle bir char'ı silmek istediğinizde Trim metodu içerisinde belirtmek gerekir. Yani sadece boşlukları silmez, belirtilen karakterleri baştan ve sondan temizler.
+
+* Contains() -> İstenilen ifadenin metin içinde geçip geçmediğini (true/false) belirtir. StringComparison.OrdinalIgnoreCase verilirse büyük/küçük harf duyarlılığını kapatır.
+* StartsWith() -> İstenilen karakter veya kelime ile başlayıp başlamadığını kontrol eder.
+* EndsWith() -> İstenilen karakter veya kelime ile bitip bitmediğini kontrol eder.
+
+* IndexOf() -> İstenilen ifadenin metin içindeki ilk indeksini döndürür. İkinci parametre olarak startIndex (örnek: IndexOf("a", 5)) verilirse, belirtilen indeksten itibaren aramaya başlar.
+* LastIndexOf() -> İstenilen ifadenin metin içindeki son indeksini döndürür.
+
+* Substring() -> Metnin belirtilen indeksten sonrasını veya belirli bir uzunluktaki kısmını kesip alır.
+
+* Replace() -> Metin içindeki belirli bir ifadeyi veya (char, char kullanımıyla) tek bir harfi başka bir ifadeyle değiştirir. Metot chaining (zincirleme) yapılarak kullanılabilir.
+
+* Remove() -> Belirtilen indeksten itibaren metnin bir kısmını(veya sonuna kadar olan bölümü) siler.
+
+* Insert() -> Metnin istenilen indeksine yeni bir metin/karakter ekler.
+
+* Split() -> Belirtilen ayırıcı karaktere(örneğin boşluk) göre metni parçalayarak bir dizi(array) oluşturur. İkinci parametresine sayı(limit) verilirse, metni parçalamayı o limit kadar yapar, kalanın son kısmını dizinin son elemanına bütün halinde atar.
+
+* Join() -> Bir dizideki elemanları belirtilen bir ayırıcı (örneğin ",") ile birleştirerek tek bir string yapar.
+
+* PadLeft() -> Metnin soluna istenen uzunluğa gelene kadar boşluk veya belirtilen karakteri ekler.
+* PadRight() -> Metnin sağına istenen uzunluğa gelene kadar boşluk veya belirtilen karakteri ekler.
+
+* Equals() -> İki string'in birbirine eşit olup olmadığını doğrudan kontrol eder (true/false).
+* Compare() -> İki string'i alfabetik olarak karşılaştırarak kıyaslar.
+* CompareTo() -> string'in kendisi üzerinden başka bir string'e karşı alfabetik sıralama veya ağırlık karşılaştırması yapar.
+* string.CompareOrdinal() -> İki string'i (dil, kültür farklılıklarını veya alfabetik kuralları gözetmeden) doğrudan bellekteki byte karşılıklarına (ASCII/Unicode) göre karşılaştırır. Performans kritik senaryolarda kullanılır.
+
+* string.IsNullOrEmpty() -> String'in null veya boş yapıda ("") olup olmadığını kontrol eder.
+* string.IsNullOrWhiteSpace() -> String'in null, boş yapıda veya sadece boşluk karakterlerinden ("   ") oluşup oluşmadığını kontrol eder.
+
+* string.Format() -> String içerisine {0}, {1} şeklinde yer tutucular ekleyerek daha esnek ve düzenli değişken basımı yapmayı sağlar. Ayrıca String Interpolation içerisine hizalama (alignment) parametreleri (örnek: {isim, -10}) verilebilir.
+* string.Concat() -> String içeriklerini performanstan ödün vermeden güvenli biçimde arka arkaya bağlamak (birleştirmek) için kullanılır.
+
+* ToCharArray() -> String metnini parçalayarak bir char[] (karakter dizisi) yapısına dönüştürür.
+* CopyTo() -> String içindeki belirli sayıdaki karakterleri kesip dışarıdaki başka bir char[] dizisinin içine aktarır.
+* Clone() -> (Artık eski sürüm kalıntısıdır). Stringin referans yapısını kopyalar ancak Immutable olduğundan birebir aynı referansa döner. Çok nadir kullanılır.

@@ -1,0 +1,78 @@
+﻿<< Value Type >>   << Referance Type >>
+* byte				* string
+* sbyte				* class
+* short				* object
+* ushort			* array
+* int				* interface
+* uint				* delegate
+* long				* dynamic
+* ulong
+* float
+* double
+* decimal
+* char 
+* bool
+* struct
+* enum
+
+* String bir char dizisidir.
+* String değişmezdir (immutable).
+
+Value Type
+* Değerin kendisi bellekte tutulur.
+* Genellikle stack (yığın) bellekte saklanır.
+* Değişken başka bir değişkene atanırsa, değerin kopyası oluşturulur.
+
+Reference Type
+* Bellekte nesnenin adresi tutulur.
+* Nesne genellikle heap bellekte saklanır.
+* Atama yapıldığında nesnenin kendisi değil, referansı kopyalanır.
+
+Person person1=new Person();
+person1.Name = "Alice";
+
+Person person2 = person1;
+person2.Name = "Jack";
+
+- Yukarıda person1.name "John" olur.
+- Çünkü person1 ve person2 aynı nesneyi işaret eder.
+
+Başka bir ifade ile
+* Value Type → “Kutunun içindeki değer”
+* Reference Type → “Kutunun adresi”
+
+En kritik fark
+* Value type değiştirildiğinde diğer değişken etkilenmez.
+* Reference type değiştirildiğinde aynı nesneyi gösteren tüm değişkenler etkilenir.
+
+Immutable (değiştirilemez): Bir nesne oluşturulduktan sonra içeriği değiştirilemez.
+string üzerinde yapılan her değişiklik yeni bir string nesnesi oluşturur.
+
+string s1 = "Merhaba";
+string s2 = s1;
+
+s1 = s1 + " Dünya";
+
+String tanımlama yolları
+1. String Literal
+* Çift tırnak içerisine yazılır.
+* String pool kullanılır.
+* En pratik ve önerilen yöntemdir.
+
+2. String sınıfı ile tanımlama
+* string ile aynıdır.
+* string, System.String için aliastır.  (alias ne demektir: Örneğin System.Int32 -> int olduğu için int aliastır diyebiliriz)
+
+3. new anahtar kelimesi ile
+* Yeni bir nesne oluşturulur.
+* String pool avantajını kullanmaz.
+* Genellikle tercih edilmez.
+
+4. Verbatim string
+* \ kaçış karakteri olarak değerlendirilmez.
+* Çoğunlukla dosya yolu belirtmek için kullanılır.
+* Çok satırlı string yazılabilir.
+
+5. String Interpolation
+* Değişkenleri string içerisine gömmek için kullanılır.
+* Modern ve önerilen yöntemdir.
