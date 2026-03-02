@@ -1,7 +1,7 @@
 ﻿Bit düzeyinde operatörler olan " & , | , ^ " ile  mantıksal operatörler olan
 " && , || , !" birbirinden tamamen farklıdır.
 
-&& operatünde ilk operandın değeri false ise ikinci operand değerlendirilmez.
+&& operatöründe ilk operandın değeri false ise ikinci operand değerlendirilmez.
 || operatöründe ise ilk operandın değeri true ise ikinci operand değerlendirilmez. Buna "short-circuit evaluation" denir.
 ! operatöründe ise operandın değeri true ise sonuç false olur, operandın değeri false ise sonuç true olur.
 

@@ -1,0 +1,99 @@
+﻿# DÖNGÜLER (LOOPS)
+
+Döngüler, belirli bir koşul sağlandığı sürece veya bir veri koleksiyonu bitene kadar kod bloklarının
+tekrar tekrar çalıştırılmasını sağlayan yapılardır.
+
+Programlamada döngüleri kullanarak aynı kodu defalarca yazmaktan
+(kod tekrarından - WET prensibi) kaçınırız ve kodumuzu (DRY - Don't Repeat Yourself)
+prensibine uygun hale getiririz.
+
+C#'ta temel olarak 4 döngü çeşidi vardır:
+
+---
+
+## 1. For Döngüsü (For Loop)
+Genellikle bir işlemin kaç kere tekrarlanacağını önceden bildiğimiz durumlarda kullanırız.
+
+**Sözdizimi:**
+```csharp
+for (başlangıç_değeri; koşul; artış_veya_azalış_miktarı)
+{
+    // Tekrarlanacak kodlar
+}
+```
+
+### 🧠 Detaylı Bilgi: Neden 'i' kullanılır ve 'i++' ne anlama gelir?
+for döngülerinde değişken olarak sıklıkla `i`, `j`, `k` gibi harfler görürüz.
+- **Neden `i`?**: `i` harfi İngilizce **"index"** (indeks/sıra numarası), **"iterator"** (yineleyici)
+veya **"integer"** (tamsayı) kelimelerinin baş harfinden gelir. Bu isimlendirme geleneği,
+eski programlama dillerine (özellikle Fortran ve C) ve matematiğe dayanır. Kısaca, "indeks"
+değerini tuttuğumuz için `i` deriz. Ancak zorunlu değildir, `sayac`, `x` veya `ahmet` de diyebiliriz,
+ama `i` evrensel bir standarttır.
+- **`i++` Nedir?**: `++` operatörüne **"increment" (arttırma)** operatörü denir. `i++`
+ifadesinin tam karşılığı `i = i + 1` şeklindedir. Yani `i`'nin mevcut değerini alır ve üzerine
+1 ekleyip tekrar `i`'ye atar. Bu işlem, döngünün her bir adımında (iteration) sayacın 1 artmasını
+ifade eder. Sayacımızın kaçar kaçar artacağı da burada belirlenir (örneğin ikişer artırmak için
+`i += 2` yazılabilir).
+
+---
+
+## 2. While Döngüsü (While Loop)
+Bir koşul **doğru (true)** olduğu sürece içindeki kod bloğunu çalıştırmaya devam eder.
+Başlangıçta döngünün kaç kere döneceğini bilmiyorsak while tercih edilir.
+
+**Sözdizimi:**
+```csharp
+while(koşul)
+{
+    // Koşul geçerli (true) olduğu sürece çalışacak kodlar
+}
+```
+
+**Not:** Döngü içerisinde koşulu etkileyecek (ve onu sonunda false yapıp döngüyü bitirecek)
+bir hamle (örneğin sayacı artırmak) yapılmazsa, döngü sonsuza kadar çalışır
+(**Sonsuz Döngü / Infinite Loop**).
+
+---
+
+## 3. Do-While Döngüsü
+while döngüsünün çok benzeridir, ancak aralarındaki kritik fark şudur:
+`while` döngüsü **önce** koşulu kontrol eder, uygunsa kod bloğunu çalıştırır.
+`do-while` döngüsü **önce** kod bloğunu bir kez çalıştırır, koşulu işlem **bittikten sonra** kontrol eder.
+
+Yani koşul en başta **yanlış (false)** bile olsa
+`do-while` döngüsü içerisindeki kod **en az 1 kere** çalıştırılır.
+
+**Sözdizimi:**
+```csharp
+do
+{
+    // En az 1 kere kesin çalışacak olan kodlar
+} while(koşul);
+```
+
+---
+
+## 4. Foreach Döngüsü
+Genellikle diziler (arrays) ve koleksiyonlar (lists vb.) içerisindeki elemanları tek tek dönmek
+(iterate) için kullanılır. Dizi bitene kadar baştan sona ilerler. Bir sayaç değişkeni atamamıza
+veya artış miktarını (`i++`) elle vermemize gerek bırakmaz.
+
+**Sözdizimi:**
+```csharp
+foreach (VeriTipi degiskenAdi in KoleksiyonAdi)
+{
+    // Elemanlar üzerinde yapılacak işlemler
+}
+```
+
+---
+
+## 💡 Döngü Kontrol İfadeleri (Break ve Continue)
+
+- **`break`**: Döngüyü tamamen kırmak (sonlandırmak) için kullanılır. `break` görüldüğü anda döngünün 
+dışına çıkılır.
+- **`continue`**: Döngünün sadece o anki adımını atlamak, sonlandırmadan hemen bir sonraki adıma 
+(iteration'a) geçmek için kullanılır.
+
+Örneğin, 5. adımda işlem yapmak istemiyorsanız if kontrolü açıp içine `continue;` yazarsanız,
+o adımı hızlıca atlayıp sonraki adımdan çalışmaya devam eder.

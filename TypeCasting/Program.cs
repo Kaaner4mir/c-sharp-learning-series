@@ -42,15 +42,15 @@
 
         // Kullanıcıdan Girdi (Input) Alma  
 
-        Console.Write("\nEnter a number: ");
+        Console.Write("\nBir sayı giriniz: ");
         string userInput = Console.ReadLine();
 
-        Console.WriteLine("You entered: " + userInput);
+        Console.WriteLine("Girdiğiniz değer: " + userInput);
 
-        Console.Write("Enter your age: ");
+        Console.Write("Yaşınızı giriniz: ");
         byte age = Convert.ToByte(Console.ReadLine());
 
-        Console.WriteLine("Your age is: " + age);
+        Console.WriteLine("Yaşınız: " + age);
 
         // Nullable (Boş olabilir) Tipler ve Casting
 
@@ -59,7 +59,8 @@
 
         int? number = null;
 
-        Console.WriteLine($"\nNumber: {number.HasValue}");
-        Console.WriteLine($"\nNumber: {number.GetValueOrDefault()}");
+        Console.WriteLine($"\nNumara (Değeri var mı?): {number.HasValue}");
+        Console.WriteLine($"Numara (Değer veya Varsayılan): {number.GetValueOrDefault()}");
+
     }
 }

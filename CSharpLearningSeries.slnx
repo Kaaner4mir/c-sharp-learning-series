@@ -9,18 +9,23 @@
   <Project Path="BooleanDataType/BooleanDataType.csproj" Id="42a7bc09-58a2-4933-82db-f98b8f047d82" />
   <Project Path="ComparisonOperators/ComparisonOperators.csproj" Id="7240d859-da16-4c58-acca-94862fad49c3" />
   <Project Path="Conditionals/Conditionals.csproj" Id="d9229cc3-9916-4afb-9f34-beaa01b7676e" />
+  <Project Path="DateTime/DateTime.csproj" Id="ddf6cb34-741a-4839-8a9d-3993b239126d" />
+  <Project Path="Enum/Enum.csproj" Id="df62b25c-7ea9-40ff-8825-948c231329c6" />
   <Project Path="EscapeCharacters/EscapeCharacters.csproj" />
   <Project Path="IntroductionToCSharp/IntroductionToCSharp.csproj" />
   <Project Path="LogicalOperators/LogicalOperators.csproj" Id="08c93969-1cdc-4e04-8d03-54a901aa5311" />
+  <Project Path="Loops/Loops.csproj" Id="98416cfd-193e-46ae-b9d3-daf19b42102e" />
+  <Project Path="Math/Math.csproj" Id="61fa5fca-4656-4587-ac4e-0b0834adbb5e" />
   <Project Path="RecapDemo1/RecapDemo1.csproj" Id="4b110879-47b5-4c11-a3b5-e0980cc79d73" />
   <Project Path="RecapDemo2/RecapDemo2.csproj" Id="e5b42711-a1b3-4601-adb6-d924f1d454ff" />
   <Project Path="RecapDemo3/RecapDemo3.csproj" Id="06cd59a1-4438-4dfd-848a-088c54373042" />
   <Project Path="RecapDemo4/RecapDemo4.csproj" Id="d7e58e60-4e0a-4ebb-af0b-05981bbc612c" />
   <Project Path="String/String.csproj" Id="11c3431a-6607-44f8-b4b6-2590bf3bc604" />
+  <Project Path="StringBuilder/StringBuilder.csproj" />
   <Project Path="StringMethods/StringMethods.csproj" Id="8ebb4ee4-9d53-4f15-bbdf-2245b3356882" />
+  <Project Path="Struct/Struct.csproj" Id="2012de08-6c82-4280-ad86-c0896671b124" />
   <Project Path="Switch/Switch.csproj" Id="e50a75ec-6d63-4414-a28a-a465c664783c" />
   <Project Path="TernaryOperators/TernaryOperators.csproj" Id="ef2804d8-8019-42f9-a50d-418c6d835aa8" />
   <Project Path="TypeCasting/TypeCasting.csproj" Id="1a23a46a-9169-4b57-b2bf-dbab0fd54cc9" />
   <Project Path="Variables/Variables.csproj" />
-  <Project Path="StringBuilder/StringBuilder.csproj" />
 </Solution>

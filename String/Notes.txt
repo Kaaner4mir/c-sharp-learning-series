@@ -1,4 +1,4 @@
-﻿<< Value Type >>   << Referance Type >>
+﻿<< Value Type >>   << Reference Type >>
 * byte				* string
 * sbyte				* class
 * short				* object
@@ -34,7 +34,7 @@ person1.Name = "Alice";
 Person person2 = person1;
 person2.Name = "Jack";
 
-- Yukarıda person1.name "John" olur.
+- Yukarıda person1.Name "Jack" olur.
 - Çünkü person1 ve person2 aynı nesneyi işaret eder.
 
 Başka bir ifade ile

@@ -1,0 +1,10 @@
+﻿* Enum (Enumeration / Numaralandırma), sabit ve sınırlı sayıdaki anlamlı değerleri temsil
+etmek için kullanılan bir veri tipidir.
+
+Kısaca:
+* Belirli seçenekleri isimlendirerek kullanmamızı sağlar.
+* Ne İşe Yarar?
+* Sabit değerleri daha okunabilir hale getirir
+* Kodun anlaşılmasını kolaylaştırır
+* Hatalı değer kullanımını azaltır
+* Magic number kullanımını engeller

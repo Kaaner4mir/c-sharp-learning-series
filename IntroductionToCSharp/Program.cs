@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)  // Main metodu, uygulama başladığında çalıştırılan ilk metottur
         {
-            Console.WriteLine("Hello, World!");  // Konsola "Hello, World!" mesajını yazdırır
+            Console.WriteLine("Merhaba, Dünya!");  // Konsola "Merhaba, Dünya!" mesajını yazdırır
         }
     }
 }

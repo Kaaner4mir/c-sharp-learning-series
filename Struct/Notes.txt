@@ -1,0 +1,3 @@
+﻿* Struct (structure / yapı), birçok programlama dilinde birden fazla farklı veri tipini
+tek bir isim altında toplamak için kullanılan bir veri yapısıdır. Kısacası ilişkili
+verileri bir arada tutmak için kullanılır.

@@ -21,11 +21,11 @@ else
 // Kullanıcının girdiği sayının pozitif, negatif veya sıfır olduğunu kontrol eden bir program yazınız.
 
 Console.Write("Bir sayı giriniz: ");
-int num = Convert.ToInt32(Console.ReadLine());
+int number2 = Convert.ToInt32(Console.ReadLine());
 
-if (num > 0)
+if (number2 > 0)
     Console.WriteLine("Sayı pozitiftir.");
-else if (num < 0)
+else if (number2 < 0)
     Console.WriteLine("Sayı negatiftir.");
 else
     Console.WriteLine("Sayı sıfırdır.");
