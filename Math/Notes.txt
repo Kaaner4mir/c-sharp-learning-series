@@ -1,0 +1,39 @@
+C# Math Sınıfı (System.Math)
+
+C#'ta matematiksel işlemleri gerçekleştirmek için `System.Math` sınıfı kullanılır. Bu sınıf, yaygın matematiksel fonksiyonları (yuvarlama, kuvvet alma, karekök vb.) ve sabitleri (PI, E) içerir. Sınıf static olduğu için new ile örneklenemez, doğrudan `Math.Metot()` şeklinde çağrılır.
+
+Önemli Math Sınıfı Metotları:
+
+1. Math.Abs(x) -> Mutlak Değer (Absolute Value)
+   Sayının pozitif karşılığını döndürür. Negatif bir sayıyı pozitife çevirir.
+
+2. Math.Ceiling(x) -> Yukarı Yuvarlama
+   Ondalıklı bir sayıyı kendinden büyük veya eşit olan en yakın tam sayıya yuvarlar. (Örn: 4.1 -> 5)
+
+3. Math.Floor(x) -> Aşağı Yuvarlama
+   Ondalıklı bir sayıyı kendinden küçük veya eşit olan en yakın tam sayıya yuvarlar. (Örn: 4.9 -> 4)
+
+4. Math.Round(x) -> En Yakın Tam Sayıya Yuvarlama
+   Ondalıklı sayıyı en yakın tam sayıya yuvarlar. ".5" durumlarında (Banker's Rounding) en yakın çift sayıya yuvarlar.
+
+5. Math.Max(x, y) -> Maksimum Değer
+   Verilen iki sayıdan büyük olanını döndürür.
+
+6. Math.Min(x, y) -> Minimum Değer
+   Verilen iki sayıdan küçük olanını döndürür.
+
+7. Math.Pow(x, y) -> Kuvvet Alma (Power)
+   x sayısının y. kuvvetini (x^y) hesaplar. Sonuç her zaman double döner.
+
+8. Math.Sqrt(x) -> Karekök (Square Root)
+   Sayının karekökünü hesaplar. Sonuç double döner.
+
+9. Math.Sign(x) -> İşaret Bulma
+   Sayının işaretini döndürür. Pozitifse 1, negatifse -1, sıfırsa 0 döner.
+
+10. Math.Truncate(x) -> Kesme
+    Ondalıklı sayının virgülden sonrasını tamamen keser (yuvarlama yapmaz), sadece tam kısmını döndürür. (Örn: 4.9 -> 4)
+
+Önemli Math Sabitleri:
+* Math.PI -> Pi sayısı (~3.14159...)
+* Math.E -> Euler sayısı (~2.71828...)

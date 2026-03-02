@@ -1,0 +1,46 @@
+﻿DateTime Sınıfı
+
+C#'ta tarih ve saat işlemleri için `System.DateTime` yapısı kullanılır.
+
+* DateTime.Now -> Bilgisayarın yerel tarih ve saatini döndürür.
+* DateTime.UtcNow -> Evrensel (UTC) tarih ve saatini döndürür.
+* new DateTime(yıl, ay, gün) -> Belirtilen tarihte bir nesne oluşturur.
+
+Özellikler (Properties):
+* Year, Month, Day -> Yıl, ay, gün bilgilerini verir.
+* Hour, Minute, Second, Millisecond -> Saat, dakika, saniye ve milisaniye bilgilerini verir.
+* DayOfWeek -> Haftanın gününü (Pazar: 0, Pazartesi: 1...) döndürür.
+* DayOfYear -> Yılın kaçıncı günü olduğunu verir.
+* TimeOfDay -> Günün geçen süresini (saat, dakika, saniye) TimeSpan olarak döndürür.
+
+Matematiksel İşlemler:
+* AddDays(), AddMonths(), AddYears() -> Tarihe gün, ay veya yıl ekler.
+* AddHours(), AddMinutes(), AddSeconds() -> Tarihe saat, dakika veya saniye ekler.
+* Not: Bu metotlar orijinal nesneyi değiştirmez, yeni bir DateTime nesnesi döndürür.
+* Negatif değerler verilerek geçmiş tarihlere gidilebilir (Örn: AddDays(-5)).
+
+Formatlama (ToString):
+* "d" -> Kısa Tarih (Kültüre duyarlı).
+* "D" -> Uzun Tarih.
+* "t" -> Kısa Zaman.
+* "T" -> Uzun Zaman.
+* "dd/MM/yyyy" -> Özel format (Gün/Ay/Yıl).
+* CultureInfo -> Farklı dillerdeki tarih formatlarını kullanmak için kullanılır.
+
+Parsing (Metinden Tarihe Dönüşüm):
+* DateTime.Parse(string) -> Metni tarih formatına dönüştürmeye çalışır.
+* DateTime.ParseExact() -> Belirli bir formata göre dönüşüm yapar.
+* DateTime.TryParse() -> Dönüşümün başarılı olup olmadığını kontrol eder (Hata fırlatmaz).
+
+TimeSpan Yapısı:
+* İki tarih arasındaki farkı veya bir süreyi temsil eder.
+* TwoDatesDifference = Date1 - Date2 -> İki tarihin farkı TimeSpan döndürür.
+* TotalDays, TotalHours -> Toplam gün veya saat miktarını verir.
+
+DateTimeOffset:
+* Tarih ve saat bilgisinin yanında, UTC'den ne kadar uzak olduğunu (+03:00 gibi) da tutar.
+* Zaman dilimleri arası farkları yönetmek için DateTime yerine tercih edilir.
+
+Diğer Metotlar:
+* DateTime.IsLeapYear(yıl) -> Belirtilen yılın artık yıl olup olmadığını kontrol eder.
+* DateTime.DaysInMonth(yıl, ay) -> Belirtilen ayın kaç gün sürdüğünü döndürür.

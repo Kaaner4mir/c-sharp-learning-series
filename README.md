@@ -26,9 +26,13 @@ Konuları aşağıdaki sırayı takip ederek öğrenmeniz önerilir:
 15.  **[RecapDemo3](RecapDemo3/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
 16.  **[RecapDemo4](RecapDemo4/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
 17.  **[Switch](Switch/):** Switch'in kullanımları
-17.  **[String](String/):** String'in kullanımları
-17.  **[StringMethods](StringMethods/):** String metotları ve yazımları
-17.  **[StringBuilder](StringBuilder/):** StringBuilder yapısı ve özellikleri
+18.  **[String](String/):** String'in kullanımları
+19.  **[StringMethods](StringMethods/):** String metotları ve yazımları
+20.  **[StringBuilder](StringBuilder/):** StringBuilder yapısı ve özellikleri
+21.  **[DateTime](DateTime/):** Tarih ve saat işlemleri, biçimlendirme ve TimeSpan
+22.  **[Enum](Enum/):** Numaralandırma yapıları
+23.  **[Struct](Struct/):** Değer tipleri ve struct kullanımı
+24.  **[Math](Math/):** Matematiksel işlemler ve Math sınıfı metotları
 
 ## 🎯 Reponun Amacı
 

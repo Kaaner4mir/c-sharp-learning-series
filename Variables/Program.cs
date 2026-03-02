@@ -15,7 +15,7 @@
         decimal number11 = 79228162514264337593543950335m;
         char character = 'A';
         bool isCorrect = true;
-        string message = "This is a sample message.";
+        string message = "Bu örnek bir mesajdır.";
         var inferredNumber = 23;
 
         // String Interpolation: Bir metinsel ifadeden önce "$" karakteri ekleyerek değişkenlerin ve

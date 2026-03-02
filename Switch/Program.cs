@@ -10,18 +10,19 @@ if (!int.TryParse(Console.ReadLine(), out int number))
 switch (number)
 {
     case 1:
-        message = "The number is 1.";
+        message = "Sayı 1.";
         break;
     case 2:
-        message = "The number is 2.";
+        message = "Sayı 2.";
         break;
     case 3:
-        message = "The number is 3.";
+        message = "Sayı 3.";
         break;
     default:
-        message = "The number is not 1, 2, or 3.";
+        message = "Sayı 1, 2 veya 3 değil.";
         break;
 }
+
 
 Console.WriteLine(message);
 
@@ -73,10 +74,10 @@ if (!int.TryParse(Console.ReadLine(), out int num))
 
 string result = num switch
 {
-    1 => "The number is 1.",
-    2 => "The number is 2.",
-    3 => "The number is 3.",
-    _ => "The number is not 1, 2, or 3."
+    1 => "Sayı 1.",
+    2 => "Sayı 2.",
+    3 => "Sayı 3.",
+    _ => "Sayı 1, 2 veya 3 değil."
 };
 
 enum DayOfWeek
