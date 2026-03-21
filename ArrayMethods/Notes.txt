@@ -1,0 +1,55 @@
+C# ARRAY METOTLARI (DİZİ METOTLARI) NOTLARI
+
+System.Array sınıfı, diziler üzerinde işlem yapmak için yararlı pek çok statik (static) metot barındırır.
+
+--- Standart (Temel) Metotlar ---
+1. Array.Sort()
+- Dizinin elemanlarını küçükten büyüğe (veya alfabetik olarak) sıralar.
+
+2. Array.Reverse()
+- Dizinin elemanlarını bulunduğu konumlara göre tersine çevirir. (Sıralama yapmaz, sadece indeksleri baştan sona tersine döndürür).
+
+3. Array.IndexOf()
+- Dizide bir elemanı baştan başlayarak arar ve bulduğu İLK yerin indeksini döndürür. Eleman dizide yoksa geriye -1 döner.
+
+4. Array.LastIndexOf()
+- Dizide bir elemanı sondan başlayarak arar ve bulduğu İLK yerin normal indeksini döndürür. Yoksa -1 döner.
+
+5. Array.BinarySearch()
+- İkili arama algoritmasını kullanarak dizideki bir elemanın indeksini çok hızlı bulur. 
+- ÖNEMLİ: Bu metodun doğru çalışması için dizinin kesinlikle önceden sıralanmış (Sorted) olması zorunludur! Aksi halde yanlış sonuç verir.
+
+6. Array.Copy()
+- Bir dizinin belirli bir bölümünü, veya tamamını, oluşturduğumuz başka bir dizinin istediğimiz indeksinden itibaren kopyalar.
+
+7. Array.Resize()
+- Normal şartlarda dizilerin boyutları tanımlandıktan sonra (örneğin 5 elemanlı bir dizi) sonradan değiştirilemez. 
+- Ancak Array.Resize metodu sahne arkasında yepyeni bir dizi oluşturur, eski dizinin elemanlarını buna kopyalar ve dizimizin referansını yeni diziye yönlendirir. Diziye sonradan eleman ekleme veya kapasite küçültme ihtiyaçlarında kullanılır.
+
+8. Array.Clear()
+- Dizinin elemanlarını bellekten tümüyle silmez, onların değerini kendi veri tipinin "varsayılan (default) değerlerine" sıfırlar.
+- Örneğin int (sayısal) dizisinde sayılar 0 olur, string dizisinde null olur, bool türünde false olur.
+
+--- Gelişmiş Arama ve Filtreleme Metotları (Lambda - Predicate Kullanımı) ---
+Aşağıdaki metotlar içlerine kural olarak "Lambda İfadeleri" veya delege kabul eder (örneğin: sayi => sayi > 5).
+
+9. Array.Exists()
+- Belirtilen özel şarta uyan EN AZ BİR eleman dizide var mı diye kontrol eder. True veya False döner.
+
+10. Array.Find()
+- Şarta uyan İLK elemanın değerini bulur ve kendisini döndürür. Bulamazsa tipin default değerini (int ise 0) döndürür.
+
+11. Array.FindAll()
+- Şarta uyan TÜM elemanları filtreler ve sonuçları listelemek yerine bize yep yeni bir dizi olarak teslim eder. Bu oldukça sık kullanılan bir metottur.
+
+12. Array.FindIndex()
+- Şarta uyan İLK elemanın indeks değerini (sırasını) döndürür.
+
+13. Array.FindLast()
+- Şarta uyan SON elemanın değerini döndürür.
+
+14. Array.TrueForAll()
+- Dizideki mevcut BÜTÜN elemanların, tanımladığınız şarta tam anlamıyla uyup uymadığını sınar. Bir eleman bile uymazsa False döner.
+
+15. Array.ForEach()
+- Parametre olarak alınan eylemi dizinin elemanları üzerinde çalıştırır (for veya foreach döngülerinin fonksiyonel (metot halindeki) kısa bir alternatifidir).

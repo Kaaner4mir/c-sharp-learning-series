@@ -29,4 +29,5 @@
   <Project Path="TernaryOperators/TernaryOperators.csproj" Id="ef2804d8-8019-42f9-a50d-418c6d835aa8" />
   <Project Path="TypeCasting/TypeCasting.csproj" Id="1a23a46a-9169-4b57-b2bf-dbab0fd54cc9" />
   <Project Path="Variables/Variables.csproj" />
+  <Project Path="ArrayMethods/ArrayMethods.csproj" />
 </Solution>
