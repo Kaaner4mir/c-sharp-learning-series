@@ -34,6 +34,7 @@ Konuları aşağıdaki sırayı takip ederek öğrenmeniz önerilir:
 23.  **[Enum](Enum/):** Numaralandırma yapıları
 24.  **[Struct](Struct/):** Değer tipleri ve struct kullanımı
 25.  **[Math](Math/):** Matematiksel işlemler ve Math sınıfı metotları
+26.  **[Arrays](Arrays/):** Diziler (Tek boyutlu, çok boyutlu ve düzensiz diziler)
 
 ## 🎯 Reponun Amacı
 

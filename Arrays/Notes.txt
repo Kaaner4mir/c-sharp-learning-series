@@ -1,0 +1,51 @@
+C# DİZİLER (ARRAYS) NOTLARI
+
+1. Dizi (Array) Nedir?
+- Aynı veri tipindeki birden çok değeri tek bir değişkende tutmamızı sağlayan veri yapılarına Dizi (Array) denir.
+- Diziler referans (reference) tiplidir. Bu nedenle belleğin Heap bölgesinde tutulurlar ve new anahtar kelimesi ile oluşturulurlar.
+- Bir dizinin boyutu oluşturulduğunda belirlenir ve sonradan doğrudan değiştirilemez (sabit boyutludurlar).
+
+2. Bellek Yönetimi ve Elemanlara Erişim
+- String ifadeler aslında arka planda birer karakter (char) dizisidir. (Örn: "Ali" -> 'A', 'l', 'i')
+- Diziler bellekte ardışık (sekiyel) alanlar kaplar.
+- Örnek: int[] numbers = new int[3]{10, 20, 30};
+  Diyelim ki int tipi bellekte 4 byte yer tutuyor ve dizinin başlangıç adresi 1000 olsun:
+  numbers[0] -> 1000 adresinde tutulur.
+  numbers[1] -> 1004 (1000+4) adresinde tutulur.
+  numbers[2] -> 1008 (1004+4) adresinde tutulur.
+  (Dennis Ritchie'nin C dilindeki yaklaşımına benzer şekilde elemanların adresleri ardışıktır.)
+- Dizilerde index (indis) 0'dan başlar. İlk eleman 0. indiste, son eleman ise (eleman sayısı - 1). indistedir.
+
+3. Dizi Tanımlama Yöntemleri
+- Yöntem 1 (Sadece boyut belirterek): 
+  string[] names = new string[3]; 
+  (Bu durumda dizi elemanları tiplerinin varsayılan değerlerini alır: referans tipleri null, sayılar 0, bool ise false olur.)
+- Yöntem 2 (Boyut belirterek ve değer atayarak):
+  string[] names2 = new string[3] { "David", "Melina", "Jhonny" };
+- Yöntem 3 (Boyut sayısını atanan değerlerden alarak):
+  string[] names3 = new string[] { "David", "Melina", "Jhonny" };
+- Yöntem 4 (Kısa kullanım):
+  string[] names4 = { "David", "Melina", "Jhonny" };
+
+4. Çok Boyutlu Diziler (Multidimensional Arrays)
+- Matrisler veya tablolar gibi satır ve sütun mantığıyla çalışan verileri tutmak için kullanılırlar.
+- int[,] matrix = new int[2, 3]; // 2 satır ve 3 sütundan oluşan 2D dizi.
+- Elemanlara matris[satır, sütun] şeklinde erişilir.
+
+5. Düzensiz Diziler (Jagged Arrays)
+- Her elemanı başka bir dizi olan dizilerdir ("Dizilerin dizisi"). Her satırın sütun (eleman) sayısının farklı olabilmesi çok boyutlu dizilerden en büyük farkıdır.
+- Örnek:
+  int[][] jaggedArray = new int[3][];
+  jaggedArray[0] = new int[2];
+  jaggedArray[1] = new int[4];
+  jaggedArray[2] = new int[1];
+
+6. Sık Kullanılan Array Özellikleri ve Metotları
+- Length: Dizinin toplam eleman sayısını verir.
+- Array.Sort(dizi): Diziyi küçükten büyüğe (ya da alfabetik olarak) sıralar.
+- Array.Reverse(dizi): Dizinin elemanlarını tersine çevirir.
+- Array.IndexOf(dizi, deger): Aranan değerin dizideki ilk index numarasını döndürür. Bulamazsa -1 döner.
+- Array.Clear(dizi, baslangicIndex, adet): Belirtilen indexten başlayıp, belirtilen adet kadar elemanı varsayılan değerine (null, 0, false vb.) dönüştürür.
+
+* Döngülerde Kullanımı
+Dizilerde elemanların üzerinde dolaşmak için en sık `for` ve `foreach` döngüleri kullanılır. Özellikle elemanları tek tek okurken (veriyi değiştirmek gerekmediğinde) `foreach` kullanmak daha okunaklı ve rahattır.
