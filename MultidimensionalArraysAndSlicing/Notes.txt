@@ -1,0 +1,37 @@
+C# Programlama - Dizilerde Dilimleme (Array Slicing), Çok Boyutlu Diziler (Multidimensional Arrays) ve 'var' Kullanımı
+
+1. 'var' Keyword (Anahtar Kelimesi)
+'var', C# dilinde örtük tip (implicit type) belirlemede kullanılır. Değişkenin türü, atandığı değerden derleyici tarafından otomatik olarak algılanır.
+Örnek:
+var sayilar = new int[] { 1, 2, 3 }; // derleyici sayilar'ın int[] olduğunu anlar.
+var isim = "Ahmet"; // tür string olur.
+Özellikle System.Range ve System.Index dönerken veya uzun tip isimleri yerine okunabilirliği artırmak içi dizilerde sıklıkla kullanılır.
+
+2. Çok Boyutlu Diziler (Multidimensional Arrays)
+Satır ve sütunlardan oluşan tablo şeklindeki veri yapılarıdır.
+İki boyutlu (2D) dizi tanımlamak için virgül [,] kullanılır. Üç boyutlu için [,,] kullanılır.
+Örnek:
+int[,] matris = new int[3, 2]; // 3 satır, 2 sütun
+int[,] tablo = {
+    { 1, 2 },
+    { 3, 4 },
+    { 5, 6 }
+};
+Erişim: tablo[0, 1] // 0. satır 1. sütundaki değere ulaşır (2)
+
+Dizi boyutlarını öğrenmek için:
+- matris.GetLength(0) -> Satır sayısını verir (3)
+- matris.GetLength(1) -> Sütun sayısını verir (2)
+
+3. Dizilerde Dilimleme (Array Slicing) - System.Range ve System.Index
+C# 8.0 ile birlikte gelen özellik sayesinde dizilerin belirli bir aralığını kolayca alabiliriz.
+- ^ (Hat/Şapka) operatörü (System.Index): Sondan kaçıncı eleman olduğunu belirtir. (^1 son elemandır). Dikkat: 0 tabanlı değildir, ^1 sondan 1. anlamına gelir.
+- .. (Aralık) operatörü (System.Range): İki indeks arasındaki elemanları getirir (Başlangıç dahil, bitiş hariç).
+Örnek:
+int[] rakamlar = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+var dilim1 = rakamlar[2..5]; // 2, 3, 4 (2. indeks dahil, 5. indeks hariç)
+var dilim2 = rakamlar[..4]; // 0, 1, 2, 3 (Baştan 4. indekse kadar)
+var dilim3 = rakamlar[6..]; // 6, 7, 8, 9 (6. indeksten sona kadar)
+var sonUc = rakamlar[^3..]; // 7, 8, 9 (Sondan üçüncüden sona kadar)
+var rangeOrnek = 1..^1; // Değişkende de saklanabilir (Range tipi).
+var yeniDizi = rakamlar[rangeOrnek]; // İlk ve son eleman hariç hepsini alır.
