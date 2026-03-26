@@ -5,6 +5,7 @@
     <File Path="WhatIsC#.txt" />
   </Folder>
   <Project Path="ArithmeticOperators/ArithmeticOperators.csproj" Id="a743994d-09eb-4823-aa3a-5f49104baf71" />
+  <Project Path="ArrayMethods/ArrayMethods.csproj" />
   <Project Path="BitwiseOperators/BitwiseOperators.csproj" Id="4514e825-d1fc-40fd-8684-ef0406295a00" />
   <Project Path="BooleanDataType/BooleanDataType.csproj" Id="42a7bc09-58a2-4933-82db-f98b8f047d82" />
   <Project Path="ComparisonOperators/ComparisonOperators.csproj" Id="7240d859-da16-4c58-acca-94862fad49c3" />
@@ -16,11 +17,14 @@
   <Project Path="LogicalOperators/LogicalOperators.csproj" Id="08c93969-1cdc-4e04-8d03-54a901aa5311" />
   <Project Path="Loops/Loops.csproj" Id="98416cfd-193e-46ae-b9d3-daf19b42102e" />
   <Project Path="Math/Math.csproj" Id="61fa5fca-4656-4587-ac4e-0b0834adbb5e" />
+  <Project Path="MultidimensionalArraysAndSlicing/MultidimensionalArraysAndSlicing.csproj" />
   <Project Path="RecapDemo1/RecapDemo1.csproj" Id="4b110879-47b5-4c11-a3b5-e0980cc79d73" />
   <Project Path="RecapDemo2/RecapDemo2.csproj" Id="e5b42711-a1b3-4601-adb6-d924f1d454ff" />
   <Project Path="RecapDemo3/RecapDemo3.csproj" Id="06cd59a1-4438-4dfd-848a-088c54373042" />
   <Project Path="RecapDemo4/RecapDemo4.csproj" Id="d7e58e60-4e0a-4ebb-af0b-05981bbc612c" />
   <Project Path="RecapDemo5/RecapDemo5.csproj" Id="74ef022d-8e6b-4030-867e-11d0b1fc6fa1" />
+  <Project Path="RecapDemo6/RecapDemo6.csproj" Id="ff60b040-c572-4ae6-bc94-1b6f85b499b7" />
+  <Project Path="RecapDemo7/RecapDemo7.csproj" Id="0a81df00-8083-4bc8-87e7-e18de55d8dd9" />
   <Project Path="String/String.csproj" Id="11c3431a-6607-44f8-b4b6-2590bf3bc604" />
   <Project Path="StringBuilder/StringBuilder.csproj" />
   <Project Path="StringMethods/StringMethods.csproj" Id="8ebb4ee4-9d53-4f15-bbdf-2245b3356882" />
@@ -29,6 +33,4 @@
   <Project Path="TernaryOperators/TernaryOperators.csproj" Id="ef2804d8-8019-42f9-a50d-418c6d835aa8" />
   <Project Path="TypeCasting/TypeCasting.csproj" Id="1a23a46a-9169-4b57-b2bf-dbab0fd54cc9" />
   <Project Path="Variables/Variables.csproj" />
-  <Project Path="ArrayMethods/ArrayMethods.csproj" />
-  <Project Path="MultidimensionalArraysAndSlicing/MultidimensionalArraysAndSlicing.csproj" />
 </Solution>
