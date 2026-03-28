@@ -25,6 +25,7 @@
   <Project Path="RecapDemo5/RecapDemo5.csproj" Id="74ef022d-8e6b-4030-867e-11d0b1fc6fa1" />
   <Project Path="RecapDemo6/RecapDemo6.csproj" Id="ff60b040-c572-4ae6-bc94-1b6f85b499b7" />
   <Project Path="RecapDemo7/RecapDemo7.csproj" Id="0a81df00-8083-4bc8-87e7-e18de55d8dd9" />
+  <Project Path="RecapDemo8/RecapDemo8.csproj" Id="80cd4aa8-c35f-4933-84d4-40e9b8ded161" />
   <Project Path="String/String.csproj" Id="11c3431a-6607-44f8-b4b6-2590bf3bc604" />
   <Project Path="StringBuilder/StringBuilder.csproj" />
   <Project Path="StringMethods/StringMethods.csproj" Id="8ebb4ee4-9d53-4f15-bbdf-2245b3356882" />
