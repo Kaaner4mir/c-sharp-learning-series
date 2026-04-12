@@ -34,7 +34,14 @@ Konuları aşağıdaki sırayı takip ederek öğrenmeniz önerilir:
 23.  **[Enum](Enum/):** Numaralandırma yapıları
 24.  **[Struct](Struct/):** Değer tipleri ve struct kullanımı
 25.  **[Math](Math/):** Matematiksel işlemler ve Math sınıfı metotları
-26.  **[Arrays](Arrays/):** Diziler (Tek boyutlu, çok boyutlu ve düzensiz diziler)
+26.  **[RecapDemo5](RecapDemo5/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
+27.  **[Arrays](Arrays/):** Diziler (Tek boyutlu, çok boyutlu ve düzensiz diziler)
+28.  **[ArrayMethods](ArrayMethods/):** Dizi metotları ve kullanımı
+29.  **[MultidimensionalArraysAndSlicing](MultidimensionalArraysAndSlicing/):** Çok boyutlu diziler ve dizilerde dilimleme (slicing)
+30.  **[RecapDemo6](RecapDemo6/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
+31.  **[RecapDemo7](RecapDemo7/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
+32.  **[RecapDemo8](RecapDemo8/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
+33.  **[RecapDemo9](RecapDemo9/):** Şimdiye kadar öğrenilen konuların pekiştirilmesi.
 
 ## 🎯 Reponun Amacı
 
